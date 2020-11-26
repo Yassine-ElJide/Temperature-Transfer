@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.wrapper{
+	display: grid;
+	min-height: 100vh;
+	min-width: 100vw;
+	grid-auto-rows: repeat(3,1fr);
+	background:black;
+}
+.deg{
+	margin:10px;
+	padding:10px;
+}
+
+.items{
+	width:100%;
+	height: 100%;
+	background:#246068;
+	outline: none;
+}
+.items[placeholder="Celsius"]{
+	font-size: 4rem;
+	text-align: center;
+	color:white;
+	border:3px solid #246068;
+	border-radius: 8px;
+}
+.items[placeholder="Kelvin"]{
+	font-size: 4rem;
+	text-align: center;
+	color:white;
+	border:3px solid #246068;
+	border-radius: 8px;
+}
+.items[placeholder="Fahrenheit"]{
+	font-size: 4rem;
+	text-align: center;
+	color:white;
+	border:3px solid #246068;
+	border-radius: 8px;
+}
+
